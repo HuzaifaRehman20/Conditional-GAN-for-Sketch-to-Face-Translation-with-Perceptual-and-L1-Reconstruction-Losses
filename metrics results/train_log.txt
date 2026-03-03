@@ -1,0 +1,14 @@
+Conditional GAN (Sketch->Face) Training Log
+Epoch 1: D=0.3548 G=175.0970 | adv=4.4061 L1=0.4607 P=24.9238
+Epoch 2: D=0.3478 G=140.9747 | adv=3.3867 L1=0.3715 P=20.0875
+Epoch 3: D=0.3886 G=148.1702 | adv=2.1471 L1=0.4159 P=20.8865
+Epoch 4: D=0.8808 G=141.3968 | adv=0.3163 L1=0.3904 P=20.4088
+Epoch 5: D=0.1624 G=133.0266 | adv=1.8709 L1=0.3452 P=19.3276
+Epoch 6: D=0.6196 G=135.7505 | adv=1.7254 L1=0.3393 P=20.0194
+Epoch 7: D=0.3972 G=137.8503 | adv=1.6003 L1=0.3577 P=20.0956
+Epoch 8: D=0.4339 G=128.7426 | adv=1.6833 L1=0.3240 P=18.9324
+
+Summary:
+Min loss_G: 34.5017 | Min loss_D: 0.0254
+Final row: {'epoch': 8.0, 'step': 150.0, 'loss_D': 0.433876, 'loss_G': 128.742569, 'adv_G': 1.683279, 'rec_L1': 0.323973, 'percep': 18.932396}
+Validation: SSIM=0.2806, PSNR=11.55 dB
